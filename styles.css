@@ -20,7 +20,7 @@
 @media(max-width:680px){.ai-build summary,.ai-build .ai-copy{padding-left:24px;padding-right:24px}}
 .brand small{font-size:10px;color:var(--muted);line-height:1.25;max-width:115px}
 @media(max-width:1100px){.brand small{display:none}}
-.expertise-grid{grid-template-areas:"transformation software integration" "business product governance" "people data ."}.expertise-grid>div:nth-child(1){grid-area:transformation}.expertise-grid>div:nth-child(2){grid-area:software}.expertise-grid>div:nth-child(3){grid-area:integration}.expertise-grid>div:nth-child(4){grid-area:business}.expertise-grid>div:nth-child(5){grid-area:product}.expertise-grid>div:nth-child(6){grid-area:governance}.expertise-grid>div:nth-child(7){grid-area:people}.expertise-grid>div:nth-child(8){grid-area:data}
-@media(max-width:900px) and (min-width:681px){.expertise-grid{grid-template-areas:"transformation software" "integration governance" "business product" "people data"}}
-@media(max-width:680px){.expertise-grid{grid-template-areas:"transformation" "software" "integration" "governance" "business" "people" "product" "data"}}
 @media(min-width:901px){.metrics{grid-template-columns:repeat(5,1fr)}}
+
+/* Keep long headings and outcome labels inside the existing responsive cards. */
+.case-top{flex-wrap:wrap}.case-top strong{white-space:normal;overflow-wrap:break-word}h1,h2,h3{overflow-wrap:break-word}
